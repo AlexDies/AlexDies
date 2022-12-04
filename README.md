@@ -1,7 +1,7 @@
 
-##### Привет!
+#### Привет!
 
-Меня зовут Гуреев Алексей, я начинающий DevOps-инженер. Ниже представлено портфолио с некоторой частью моих проектов и домашних работ.
+Меня зовут **Алексей Гуреев**, я начинающий DevOps-инженер. Ниже представлено портфолио с некоторой частью моих проектов и домашних работ.
 
 ##### Дипломный проект:
 1. Инфраструктура: [Основная часть](https://github.com/AlexDies/DipIomInfrastructure) 
@@ -12,17 +12,18 @@
 ##### Примеры работы с Ansible:
 1. Пример `Role` для установки `Kibana`: [Kibana](https://github.com/AlexDies/kibana-role)
 2. Пример `Role` для установки `Filebeat`: [Filebeat](https://github.com/AlexDies/filebeat-role/tree/main/playbook)
-3. Пример `ansible playbook` для установки `Elasticsearch`, `Kibana`, `Filebeat`: [Elastiksearch & Kibana & Filebeat](https://github.com/AlexDies/AnsiblePlaybook/tree/Ansible_8_3)
-4. Пример `ansible playbook` для установки `Kibana`, `Filebeat`, `Elasticsearch` с использованием `ansbile-galaxy` через роли: [EFK](https://github.com/AlexDies/AnsiblePlaybook/tree/Ansible_8_4)
-5. Пример тестирования Role с использованием `Molecule` и `Tox`: [Molecule & Tox Testing](https://github.com/AlexDies/AnsiblePlaybook/tree/Ansible_8_5(TestRole))
+3. `Ansible playbook` для установки `Elasticsearch`, `Kibana`, `Filebeat`: [Elastiksearch & Kibana & Filebeat](https://github.com/AlexDies/AnsiblePlaybook/tree/Ansible_8_3)
+4. `Ansible playbook` для установки `Kibana`, `Filebeat`, `Elasticsearch` с использованием `ansbile-galaxy` через роли: [EFK](https://github.com/AlexDies/AnsiblePlaybook/tree/Ansible_8_4)
+5. Тестирования Role с использованием `Molecule` и `Tox`: [Molecule & Tox Testing](https://github.com/AlexDies/AnsiblePlaybook/tree/Ansible_8_5(TestRole))
 
 ##### Примеры работы с CI/CD:
 
-1. Пример установки(через ansible) и работы с `Jenkins` (Declarative Pipeline, Freestyle Job, Scripted Pipeline, Multibranch Pipeline). 
+1. Утановка(через ansible) и работа с `Jenkins` (Declarative Pipeline, Freestyle Job, Scripted Pipeline, Multibranch Pipeline). 
 Тестирование и развертывание стека EFK на YC: [Jenkins](https://github.com/AlexDies/homework/blob/main/homework_9_4(Jenkins)/homework_9_4.md)
-2. Пример установки и работы с `TeamCity`. 
+
+2. Установка и работа с `TeamCity`. 
 Сборка через `maven` и хранение артефакта в `Nexus`: [TeamCity](https://github.com/AlexDies/homework/tree/main/homework_9_5(TeamCity))
-3. Пример работы с `Gitlab`. 
+3. Работа с `Gitlab`. 
 Автосборка приложения (python) в docker-образ и пуш в репозиторий: [Gitlab](https://github.com/AlexDies/homework/tree/main/homework_9_6(GitLab))
 
 ##### Примеры работы с Terrafrom:
