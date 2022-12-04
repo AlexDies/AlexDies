@@ -1,8 +1,9 @@
 
-#### Привет!
+### Привет!
 
 Меня зовут **Алексей Гуреев**, я начинающий DevOps-инженер. Ниже моё портфолио с некоторой частью моих проектов и домашних работ.
 
+---
 ##### Дипломный проект:
 
 - Инфраструктура: [Основная часть](https://github.com/AlexDies/DipIomInfrastructure) 
@@ -10,6 +11,7 @@
 
 В дипломном проекте использовались следующий инструменты: Terraform, Ansible, YC, Kubernetes, Prometheus, Grafana, Helm, Gitlab CI/CD.
 
+---
 ##### Примеры работы с Ansible:
 1. Пример `Role` для установки `Kibana`: [Kibana](https://github.com/AlexDies/kibana-role)
 2. Пример `Role` для установки `Filebeat`: [Filebeat](https://github.com/AlexDies/filebeat-role/tree/main/playbook)
@@ -17,6 +19,7 @@
 4. `Ansible playbook` для установки `Kibana`, `Filebeat`, `Elasticsearch` с использованием `ansbile-galaxy` через роли: [EFK](https://github.com/AlexDies/AnsiblePlaybook/tree/Ansible_8_4)
 5. Тестирования Role с использованием `Molecule` и `Tox`: [Molecule & Tox Testing](https://github.com/AlexDies/AnsiblePlaybook/tree/Ansible_8_5(TestRole))
 
+---
 ##### Примеры работы с CI/CD:
 
 1. Утановка(через ansible) и работа с `Jenkins` (Declarative Pipeline, Freestyle Job, Scripted Pipeline, Multibranch Pipeline). 
@@ -27,6 +30,7 @@
 3. Работа с `Gitlab`. 
 Автосборка приложения (python) в docker-образ и пуш в репозиторий: [Gitlab](https://github.com/AlexDies/homework/tree/main/homework_9_6(GitLab))
 
+---
 ##### Примеры работы с Terrafrom:
 
 1. Подготовка EC2-инстансов в AWS: [AWS EC2](https://github.com/AlexDies/homework/tree/main/homework_7_2(terraform_ec2))
@@ -34,6 +38,7 @@
 3. Работы с `Atlantis` и `TerraformCloud`: [Remote state](https://github.com/AlexDies/homework/tree/main/homework_7_4(terraform%20cloud%2C%20remote%20state%2C%20atlasin))
 4. Создание VPC, Subnet, Route, NAT, VM в `YandexCloud`: [Работа в YC](https://github.com/AlexDies/homework/tree/main/homework_15.1(YC(Network)))
 
+---
 ##### Примеры работы с Kubernetes:
 
 1. Описание работы с Minikub: [Minikube](https://github.com/AlexDies/homework/blob/main/homework_12.1(Kuber%20component)/homework_12_1.md)
